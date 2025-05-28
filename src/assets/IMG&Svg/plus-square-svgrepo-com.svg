@@ -1,0 +1,7 @@
+<svg width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Navy blue square background -->
+  <rect width="32" height="32" fill="#000080"/>
+
+  <!-- White plus sign -->
+  <path fill="#FFFFFF" d="M22 15H17V10a1 1 0 0 0-2 0v5h-5a1 1 0 0 0 0 2h5v5a1 1 0 0 0 2 0v-5h5a1 1 0 0 0 0-2z"/>
+</svg>

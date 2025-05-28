@@ -1,0 +1,86 @@
+/* Sidebar container */
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left:0;
+    width: 240px;
+    height: 100vh;
+    background:#f0f7ff;
+    padding: 3.5rem 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index:900;
+    /* border-right: 1px solid#ccc; */
+    overflow:hidden;
+  }
+  
+  /* Section headings */
+  .sidebar .general  a{
+    margin-bottom: -1rem;
+  }
+  .sidebar .tools a{
+    margin-bottom:-1rem
+  }
+  .sidebar p {
+    font-weight: bold;
+    margin-bottom: 0.55rem;
+    color: gray;
+  }
+  
+  /* General, Tools, Setting sections */
+  .general,
+  .tools,
+  .setting {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 0.5rem;
+  }
+
+  .setting img {
+    margin-top:0.5rem;
+  }
+  .setting{
+    margin-top:auto;
+  }
+  
+  /* Each Link */
+  .sidebar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #444;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition:  0.2s ease, color 0.2s ease;
+  }
+  
+  /* Hover effect */
+  .sidebar a p:hover { 
+    
+    color: #000080;
+  }
+  .sidebar a :hover { 
+    
+    color: #000080;
+  }
+  
+  /* Icons inside Link */
+  .sidebar  img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Text inside Link */
+  .sidebar Link p {
+    margin: 0;
+    font-size: 1rem;
+    color:
+  }
+  
+  .general a {
+    padding-bottom:-0.5rem;
+  }

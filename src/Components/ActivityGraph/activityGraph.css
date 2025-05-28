@@ -1,0 +1,79 @@
+.activity {
+    padding-top: 3.5rem;
+    width: 550px;
+    margin: auto;
+  }
+  
+  .heading {
+    text-align: left;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 2px;
+  }
+  
+  .heading h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .heading p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .graph {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 120px;
+    margin: 0 25px; 
+    padding: 1px ;
+    background-color: #f9f9fc; /* light background */
+  }
+  
+  .bars {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 100%;
+    gap: 6px;
+  }
+  .bars p{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bar1 {
+    width: 4px;
+    height: 75px; /* base height — optional: randomize or vary per line */
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+  .bar2 {
+    width: 4px;
+    height: 45px; /* base height — optional: randomize or vary per line */
+    border-radius: 3px;
+ 
+    transition: 0.3s;
+  }
+  .bar3 {
+    width: 4px;
+    height: 35px; /* base height — optional: randomize or vary per line */
+    border-radius: 3px;
+    margin-top:20px;
+    transition: 0.3s;
+  }
+
+  .bar4 {
+    width: 4px;
+    height: 25px; /* base height — optional: randomize or vary per line */
+    border-radius: 3px;
+    margin-top:50px;
+    transition: 0.3s;
+  }
+  
+  .day {
+    margin-bottom: 1px;
+    font-size: 12px;
+    color: #888;
+  }

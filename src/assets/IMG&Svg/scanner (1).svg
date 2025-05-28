@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" id="scanner" x="0" y="0" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 2500 2500">
+  
+  <defs>
+ <linearGradient id="scan-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" stop-color="#0056b3" stop-opacity="10"/>
+  <stop offset="100%" stop-color="#e6f3ff" stop-opacity="0.15"/>
+</linearGradient>
+    <filter id="scan-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Scanning bar -->
+  <rect width="440" height="90" x="33.479" y="210" rx="10" ry="10" fill="url(#scan-gradient)" filter="url(#scan-glow)" fill-rule="evenodd" clip-rule="evenodd"/>
+
+  <!-- Frame structure -->
+  <path fill="#80b4fb" fill-rule="evenodd" d="M33.479,153.318V91.411c0-15.962,6.504-30.447,16.995-40.937c10.491-10.491,24.976-16.995,40.937-16.995
+    h72.956v24H91.411c-9.337,0-17.818,3.813-23.968,9.963c-6.15,6.15-9.963,14.632-9.963,23.968v61.907H33.479L33.479,153.318z
+     M347.633,33.479h72.956c15.961,0,30.447,6.504,40.937,16.995c10.491,10.491,16.995,24.975,16.995,40.937v61.907h-24V91.411
+    c0-9.337-3.813-17.818-9.963-23.968c-6.15-6.15-14.632-9.963-23.968-9.963h-72.956V33.479L347.633,33.479z M478.521,358.682v61.907
+    c0,15.961-6.504,30.446-16.995,40.937c-10.491,10.491-24.976,16.995-40.937,16.995h-72.956v-24h72.956
+    c9.337,0,17.818-3.813,23.968-9.963c6.15-6.15,9.963-14.632,9.963-23.968v-61.907H478.521L478.521,358.682z M164.367,478.521
+    H91.411c-15.962,0-30.447-6.504-40.937-16.995c-10.491-10.49-16.995-24.975-16.995-40.937v-61.907h24v61.907
+    c0,9.337,3.813,17.818,9.963,23.968c6.15,6.15,14.632,9.963,23.968,9.963h72.956V478.521z" clip-rule="evenodd"/>
+</svg>

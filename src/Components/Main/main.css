@@ -1,0 +1,22 @@
+/* Make main container fill full viewport and arrange children horizontally */
+.main {
+    display: flex;
+    width: 100vw;      /* full viewport width */
+    height: 100vh;     /* full viewport height */
+    overflow: hidden;  /* prevent scrollbars */
+  }
+  
+  /* Sidebar styles - fixed width */
+  .main > .Sidebar {
+    flex: 0 0 250px; /* fixed width, no grow or shrink */
+    height: 100%;
+    overflow: hidden; /* no scroll */
+  }
+  
+  /* Dashboard styles - fill remaining space */
+  .main > .Dashboard {
+    flex: 1 1 auto;  /* grow to fill remaining space */
+    height: 100%;
+    overflow: hidden; /* prevent scroll */
+  }
+  

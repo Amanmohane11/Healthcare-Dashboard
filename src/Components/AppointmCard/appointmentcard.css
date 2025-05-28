@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid #ccc; /* optional, for structure */
+    border-radius: 28px;
+    padding: 18px;
+    margin-top:15px;
+    
+    font-family: sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* <-- shadow added */
+    background-color: ; /* recommended for better contrast */
+  }
+  
+  .card h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 0 8px;
+    gap:30px;
+  }
+  
+  .card h2 span img {
+    width: 20px;
+    height: 20px;
+    
+    object-fit: contain;
+  }
+  
+  .card p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+  

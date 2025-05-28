@@ -1,0 +1,95 @@
+
+    
+.calender {
+  background: #f0f7ff;
+  width: 620px;
+  
+}
+
+.heading-cal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 9px;
+  padding-top:78px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heading-cal h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.arrow {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 16px;
+  margin-top: 2px;
+}
+
+.arrow img {
+  width: 16px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  padding:8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.sec-day {
+  
+  padding: 8px;
+  border-radius: 6px;
+  min-height: 70px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.sec-day div {
+  padding: 1px 3px;
+  border-radius: 4px;
+}
+
+
+.appoint {
+  display: flex;
+  padding-left: 10px;
+  gap: 20px;
+}
+
+
+.shedule {
+  margin-top:15px;
+  margin-left: 15px;         
+  width: 100%;
+  line-height: 1.5;  
+ 
+}
+
+.shedule h1,
+.shedule p {
+  margin: 2px 0;             
+  font-size: 16px;           
+  line-height: 1.5;          
+}
+
+
+.shedule1,
+.shedule2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;                  
+} 
+
+
+    
