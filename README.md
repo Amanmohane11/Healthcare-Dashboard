@@ -1,12 +1,16 @@
-# React + Vite
+🩺 HealthCare Dashboard
+This project is a HealthCare Dashboard built using React.js, developed as part of an assignment for Fitpeo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Overview
+The HealthCare Dashboard provides a clean and responsive interface to display patient-related health data. It emphasizes component reusability, data-driven rendering using props, and a modular code structure.
 
-Currently, two official plugins are available:
+🛠️ Key Features
+📊 Dashboard UI: A visually appealing layout showcasing patient stats, reports, and activity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔁 Component-based architecture: Reusable and maintainable React components.
 
-## Expanding the ESLint configuration
+🧠 Data via Props: All health-related data is stored in a JavaScript file and passed as props to components for rendering.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💡 Modular Design: Keeps logic and presentation separate by importing structured data from external JS files.
+
+Live Demo: https://fitpeo-health-dashboard.netlify.app/
